@@ -44,6 +44,7 @@ export default function Home() {
       <div className='scale-95 hover:scale-100 ease-in-out duration-500'>
          <div className='text-lg bg-[#146994] text-white hover:bg-[#146994] p-4 rounded-md drop-shadow-sm' id="web-skill-6">SEO</div>
       </div>
+      <br></br>
        </div>       
       </div>
         </div>

@@ -7,7 +7,7 @@ import '../Assets/DarkMode.css'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; 
 
-import LensAgency from "../Assets/Images/LensAgency.png";
+import LensAgency from "../Assets/Images/LensLogo.png";
 
 export default function NavBar(props) {
   
@@ -54,8 +54,8 @@ export default function NavBar(props) {
                         to={item.href}
                         className={classNames(
                           location.pathname === item.href
-                            ? 'bg-lightmauve'
-                            : ' text-white hover:bg-white hover:text-black',
+                            ? 'bg-[#146994] text-white'
+                            : 'hover:bg-[#146994] hover:text-white',
                           'px-1 py-2 rounded-sm text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined} 

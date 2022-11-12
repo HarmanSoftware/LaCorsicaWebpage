@@ -65,7 +65,7 @@ export default function Contact() {
     <div>
       <div className="container mx-auto" id="form-container">
       <div className="container mx-auto grid lg:grid-cols-2 sm:grid-cols-1 sm:mr-24">
-        <div className="bg-soft-purple my-4 lg:rounded-l-lg" id="contact-us">
+        <div className="bg-[#146994] my-4 lg:rounded-l-lg" id="contact-us">
           <form className="p-4" ref={form} onSubmit={sendEmail}>
             <div className="text-center font-medium text-4xl text-white py-3">
               Contact Us
@@ -175,7 +175,8 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className="bg-lightpurple p-6 lg:rounded-lg" id="contact-info">
+
+        <div className="bg-[#145994] p-6 lg:rounded-lg" id="contact-info">
           <div className="text-center text-2xl font-medium p-1"></div>
           <div className="text-center">
             <img

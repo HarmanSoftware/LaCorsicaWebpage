@@ -16,8 +16,8 @@ const scroll= () => {
     return ()=> window.removeEventListener('scroll',scroll)
  },[]);
     return (
-        <div className="bg-soft-purple fixed top-14 left-0 w-full h-5 z-50 drop-shadow-lg" id='scroll-indicate'>
-            <div className="bg-lightmauve h-5 drop-shadow-lg" style={{ width: `${scrollTop}%` }}></div>
+        <div className="bg-[#fff] fixed top-14 left-0 w-full h-5 z-50 drop-shadow-lg" id='scroll-indicate'>
+            <div className="bg-[#146994] h-5 drop-shadow-lg" style={{ width: `${scrollTop}%` }}></div>
         </div>
     );
 }

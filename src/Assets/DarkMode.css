@@ -1,9 +1,9 @@
   #light {
-    background-color: #f3ebf6;    
+    background-color: #fff;    
   }  
   #dark {
     background-color: #022b3d;
-    color: #fff;
+    color: #f3ebf6;
   }
   #light .main {
     background-color: #fff;
@@ -11,9 +11,13 @@
   #dark .main {
     background-color: #022b3d;    
   }
+  #light #nav-bg{
+    background-color: #fff;
+    color:#000;
+      }
   #dark #nav-bg{
-background-color: #02162A;
-color:#fff;
+    background-color: #02162A;
+    color:#fff;
   }
   #dark #desktop-nav-link{
     color: #000;
@@ -22,16 +26,17 @@ color:#fff;
     color: #000;    
   }
   ::selection {    
-    background: #270440;
+    background: #146994;
     color: #fff;
   }
   #dark ::selection {
     background-color: #fff;   
     color: #000; 
   }
+
   .switch {    
     width: 100vw;
-    height: 100px;    
+    height: 100px; 
   }  
   .switch label {
     margin: 10px;
@@ -42,6 +47,7 @@ color:#fff;
   #dark .switch label {
     color: #fff;
   }
+
  #dark #scroll-indicate{
   background-color: #002739;
  }
@@ -52,7 +58,7 @@ background-color: #02162A;
   background-color: #002739;
  }
  #dark #aboutme-div{
-  background-color: #02162A;
+  background-color: #146994;
  }
  #dark #aboutme-txt-div{
   background-color: #002739;

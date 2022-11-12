@@ -12,14 +12,14 @@
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #8c71dc;    
+    background: #195094;    
     border-radius: 2px; 
      
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #6f56b8;    
+    background: #194094;    
   }
 
   #form-container{

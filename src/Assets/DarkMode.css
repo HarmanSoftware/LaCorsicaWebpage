@@ -20,10 +20,10 @@
     color:#fff;
   }
   #dark #desktop-nav-link{
-    color: #000;
+    color: #fff;
   }
   #dark #mob-nav-link{
-    color: #000;    
+    color: #fff;    
   }
   ::selection {    
     background: #146994;
@@ -47,7 +47,6 @@
   #dark .switch label {
     color: #fff;
   }
-
  #dark #scroll-indicate{
   background-color: #002739;
  }
@@ -58,10 +57,7 @@ background-color: #02162A;
   background-color: #002739;
  }
  #dark #aboutme-div{
-  background-color: #146994;
- }
- #dark #aboutme-txt-div{
-  background-color: #002739;
+  background-color: #02162A;
  }
  #dark #webskills-div{
   background-color: #02162A;
@@ -76,7 +72,7 @@ background-color: #02162A;
   background-color: #02162A;
  }
  #dark #footer{
-  background-color: #002739;
+  background-color: #02162A;
   color: #fff;
  }
  #dark #education-haeding{

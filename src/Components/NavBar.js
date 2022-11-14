@@ -32,7 +32,7 @@ export default function NavBar(props) {
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black bg-white text-black hover:bg-lightmauve">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black bg-red hover:text-white hover:bg-[#196994]">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -81,17 +81,18 @@ export default function NavBar(props) {
             </div>
           </div>
 
+       {/* Mobile View */}
           <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 text-center" id='mob-nav-link'>
+            <div className="px-2 pt-4 pb-3 space-y-1 text-center" id='mob-nav-link'>
               {navigation.map((item) => (
                 <Disclosure.Button
-                  key={item.name}
+                  key={item.name} 
                   as={Link}
                   to={item.href}
                   className={classNames(
                     location.pathname === item.href
-                      ? 'bg-lightmauve'
-                      : 'text-white hover:bg-white hover:text-black',
+                      ? 'bg-[#146994] text-white'
+                      : 'hover:bg-[#146994] hover:text-white',
                     'block px-1 py-2 rounded-sm text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

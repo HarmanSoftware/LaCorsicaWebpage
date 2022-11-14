@@ -13,9 +13,8 @@ export default function Footer() {
 				<span className="self-center text-2xl font-semibold">Lens Agency</span>
 			</Link>
 			<div className='text-justify pr-10 py-4'>
-			We are a full-service digital marketing team that specializes in helping businesses in all shapes and sizes
-            We can help with everything from social media management photography/videography, website design and development and mobile application to online marketing and SEO.
-            We also offer high quality video and content production and email marketing services.
+			Serving all shapes & sized businesses, obsessed with making your brand more valuable and successful commercially!
+		    With a talented team of specialists who are on hand to provide strategic support and direction where you need it most, We offer all digital marketing services, website design & development and content production.
 			</div>
 		</div>
 		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
@@ -48,11 +47,11 @@ export default function Footer() {
 				</ul>
 			</div>
 			<div className="space-y-3 text-base">
-				<div className="uppercase text-lg font-medium dark:text-gray-50">Follow Me</div>
+				<div className="uppercase text-lg font-medium dark:text-gray-50">Follow Me On</div>
 				<div className="flex justify-start space-x-3">
 					
 						<Tippy content='Facebook'>
-					<a href="" target='_blank' rel="noreferrer" className="flex items-center p-1 scale-125 hover:scale-150 hover:transition-all">
+					<a href="https://www.facebook.com/LensAgency.krd" target='_blank' rel="noreferrer" className="flex items-center p-1 scale-125 hover:scale-150 hover:transition-all">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-5 h-5 fill-current">
 							<path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
 						</svg>
@@ -60,7 +59,7 @@ export default function Footer() {
 						</Tippy>
 
 						<Tippy content='Linkedin'>
-					<a rel="noopener noreferrer" href='' target='_blank' className="flex items-center p-1 scale:75 hover:scale-125 hover:transition-all">
+					<a rel="noopener noreferrer" href='https://www.linkedin.com/in/lens-agency-870854256' target='_blank' className="flex items-center p-1 scale:75 hover:scale-125 hover:transition-all">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill='white' viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
 					</a>
 						</Tippy>

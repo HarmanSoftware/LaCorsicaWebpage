@@ -55,10 +55,11 @@ export default function Home() {
       </div>
       <div className='px-2 text-justify text-lg'>Content writing and marketing plan as well as trainings for start-up marketing companies staffs</div>
       </div>
-      <br></br>
        </div>       
       </div>
         </div>
+        <br></br>
+        <br></br>
     </>
   )
 }

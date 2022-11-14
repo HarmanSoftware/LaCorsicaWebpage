@@ -23,16 +23,16 @@ export default function Footer() {
 				<h3 className="tracking-wide uppercase text-lg font-medium dark:text-gray-50 p-1">Navigation</h3>
 				<ul className="space-y-1 text-base">
 					<li>
-						<Link className='hover:bg-mauve hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/">Home</Link>
+						<Link className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/">Home</Link>
 					</li>
 					<li>
-						<Link className='hover:bg-mauve hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/about">About</Link>
+						<Link className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/about">About</Link>
 					</li>
                     <li>
-						<Link className='hover:bg-mauve hover:text-black p-1 rounded-sm'  rel="noopener noreferrer" to="/projects">Project</Link>
+						<Link className='hover:bg-white hover:text-black p-1 rounded-sm'  rel="noopener noreferrer" to="/projects">Project</Link>
 					</li>
                     <li>
-						<Link className='hover:bg-mauve hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/contact">Contact</Link>
+						<Link className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/contact">Contact</Link>
 					</li>
 				</ul>
 			</div>
@@ -40,10 +40,10 @@ export default function Footer() {
 				<h3 className="uppercase text-lg font-medium dark:text-gray-50 p-1">Top Projects</h3>
 				<ul className="space-y-1">
 					<li>
-						<a className='hover:bg-mauve hover:text-black p-1 rounded-sm' rel="noopener noreferrer" href="https://gagromed.com" target="_blank">Gagromed.com</a>
+						<a className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" href="https://gagromed.com" target="_blank">Gagromed.com</a>
 					</li>
 					<li>
-						<a className='hover:bg-mauve hover:text-black p-1 rounded-sm' rel="noopener noreferrer" href="https://itsprojectx.com" target="_blank">Itsprojectx.com</a>
+						<a className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" href="https://itsprojectx.com" target="_blank">Itsprojectx.com</a>
 					</li>
 				</ul>
 			</div>

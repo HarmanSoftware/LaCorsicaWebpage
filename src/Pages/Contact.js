@@ -200,7 +200,7 @@ export default function Contact() {
               className="flex items-center font-medium py-2 my-2 mt-4 text-xl rounded-lg bg-white hover:bg-mauve shadow hover:shadow-md hover:scale-105 ease-in-out duration-500"
               >
               <img src={Email} className="w-8 h-8 mx-2" alt="Email icon img" />
-              <div className="font-medium px-12">Example@gmail.com</div>
+              <div className="font-medium px-12">Lensmedia.krd@gmail.com</div>
             </div>
           </div>
         </div>

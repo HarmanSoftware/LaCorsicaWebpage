@@ -16,7 +16,7 @@ export default function NavBar(props) {
     const navigation = [
         { name: 'Home', href: '/', current: true},
         { name: 'About', href: '/about', current: false },
-        { name: 'Project', href: '/projects', current: false },
+        { name: 'Service', href: '/service', current: false },
         { name: 'Contact', href: '/contact', current: false },             
       ]    
       function classNames(...classes) {

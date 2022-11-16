@@ -9,7 +9,7 @@ import NavBar from './Components/NavBar';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Projects from './Pages/Projects';
+import Service from './Pages/Service';
 import Contact from './Pages/Contact';
 import PageNotFound from './Pages/PageNotFound';
 
@@ -35,8 +35,7 @@ function App() {
   useEffect(()=>{    
     const theme=localStorage.getItem('modes');
     setTheme(theme);
-  },[]);
-  
+  },[]);  
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>    
@@ -47,7 +46,7 @@ function App() {
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />        
+        <Route path="service" element={<Service />} />        
         <Route path="contact" element={<Contact />} />        
         <Route path="*" element={<PageNotFound />} />
      </Routes>   

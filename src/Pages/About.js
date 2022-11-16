@@ -9,7 +9,6 @@ export default function Experience() {
     We also offer high quality video and content production and email marketing services.
     </div>
     <div>
-    <button>READ MORE</button>
     </div>
     </>
   )

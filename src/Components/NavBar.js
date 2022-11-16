@@ -25,7 +25,7 @@ export default function NavBar(props) {
 
   return (
     <>
-    <Disclosure as="nav" className="bg-purple sticky top-0 z-50" id='nav-bg'>
+    <Disclosure as="nav" className="sticky top-0 z-50" id='nav-bg'>
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

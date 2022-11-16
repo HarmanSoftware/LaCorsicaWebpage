@@ -27,6 +27,18 @@ export default function Home() {
 
         <br></br>
 
+       <div className='grid grid-cols-2 mt-12 text-center scale-95 hover:scale-100 ease-in-out duration-500' id="aboutme-div">
+       <div className=''>
+       <h2 className='container mx-auto text-center font-semibold text-5xl mt-16'>Why Choose Us?</h2>
+       </div>
+       <div id="aboutme-txt-div" className='container mx-auto p-6 text-justify text-xl rounded-lg drop-shadow-md'>
+       There are many reasons to choose our marketing services. We are a full-service marketing agency that can help you with all aspects of your marketing. We are also a results-oriented agency, which means that we focus on getting you the results you want and need from your marketing efforts.     
+       </div>
+       </div>  
+       <br></br>
+       <br></br>
+        <br></br>
+
         <div className='bg-[#146994] text-white mt-10 pt-4 pb-12 text-center' id="aboutme-div">
        <div className='scale-95 hover:scale-100 ease-in-out duration-500'>
        <h2 className='container mx-auto text-center font-semibold text-3xl mb-4 mt-4'>Have Something In Your Mind?</h2>

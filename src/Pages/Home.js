@@ -27,7 +27,7 @@ export default function Home() {
 
         <br></br>
 
-       <div className='grid grid-cols-2 mt-12 text-center scale-95 hover:scale-100 ease-in-out duration-500' id="aboutme-div">
+       <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-12 text-center scale-95 hover:scale-100 ease-in-out duration-500' id="aboutme-div">
        <div className=''>
        <h2 className='container mx-auto text-center font-semibold text-5xl mt-16'>Why Choose Us?</h2>
        </div>

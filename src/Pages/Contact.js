@@ -62,11 +62,11 @@ export default function Contact() {
   });
 
   return (
-    <div>
-      <h2 className="text-center text-4xl font-semibold pt-8">Say Hello!</h2>
+    <div>      
       <div className="container mx-auto" id="form-container">
+      <h2 className="text-center text-5xl font-semibold mb-8">Say Hello!</h2>
       <div className="container mx-auto grid lg:grid-cols-2 sm:grid-cols-1 sm:mr-24">
-        <div className="bg-[#146994] my-4 lg:rounded-l-lg" id="contact-us">
+        <div className="bg-[#146994] my-1 lg:rounded-l-lg" id="contact-us">
           <form className="p-4" ref={form} onSubmit={sendEmail}>
             <div className="text-center font-medium text-4xl text-white py-3">
               Contact Us

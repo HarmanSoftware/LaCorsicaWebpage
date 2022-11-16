@@ -11,7 +11,7 @@ export default function Home() {
         </div>     
        </div>
        
-       <h2 className='container mx-auto text-center font-semibold text-5xl mt-16 mb-16'>Where Art Takes Place!</h2>
+       <h2 className='container mx-auto text-center font-semibold lg:text-5xl sm:text-4xl mt-16 mb-16'>Where Art Takes Place!</h2>
 
        <div className='bg-[#146994] text-white mt-10 pt-4 pb-12 text-center' id="aboutme-div">
        <div className='scale-95 hover:scale-100 ease-in-out duration-500'>

@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactCarousel from '../Components/ReactCarousel';
 import {Link} from "react-router-dom";
+import { motion } from "framer-motion"
 
 export default function Home() {
     return (
@@ -20,11 +21,14 @@ export default function Home() {
        We are a full-service digital marketing team that specializes in helping businesses in all shapes and sizes
        We can help with everything from social media management photography/videography, website design and development and mobile application to online marketing and SEO.
        We also offer high quality video and content production and email marketing services.       
-       </div>
-       <Link to='/about'>
-       <button type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>READ MORE</button>              
-       </Link>
        </div>       
+       </div>   
+       <Link to='/about'>
+       <motion.button whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>READ MORE
+        </motion.button>              
+       </Link>    
        </div>
 
         <br></br>
@@ -39,7 +43,6 @@ export default function Home() {
        </div>  
        <br></br>
        <br></br>
-        <br></br>
 
         <div className='bg-[#146994] text-white mt-10 pt-4 pb-12 text-center' id="aboutme-div">
        <div className='scale-95 hover:scale-100 ease-in-out duration-500'>
@@ -47,11 +50,14 @@ export default function Home() {
        <div id="aboutme-txt-div" className='container mx-auto p-10 text-white text-center  text-xl rounded-lg drop-shadow-md'>
        If you have any plan and want to improve your work and bussiness, Don't worry we are here to help and answer your questions
        please contact us and we will be happy to assist you.      
-       </div>
-       <Link to='/contact'>
-       <button type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>CONTACT US</button>              
-       </Link>
        </div>       
+       </div>  
+       <Link to='/contact'>
+       <motion.button whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>READ MORE
+        </motion.button>              
+       </Link>       
        </div>
        <br></br>
        <br></br>

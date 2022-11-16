@@ -9,6 +9,7 @@ import 'tippy.js/dist/tippy.css';
 
 import LensAgency from "../Assets/Images/LensLogo.png";
 
+
 export default function NavBar(props) {
   
   const location = useLocation(); 

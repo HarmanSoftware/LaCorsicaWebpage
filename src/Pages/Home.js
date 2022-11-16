@@ -20,7 +20,7 @@ export default function Home() {
        We also offer high quality video and content production and email marketing services.       
        </div>
        <Link to='/about'>
-       <button type='text' className='w-24 h-12 bg-white text-black font-semibold rounded-md'>READ MORE</button>              
+       <button type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>READ MORE</button>              
        </Link>
        </div>       
        </div>
@@ -47,7 +47,7 @@ export default function Home() {
        please contact us and we will be happy to assist you.      
        </div>
        <Link to='/contact'>
-       <button type='text' className='w-24 h-12 bg-white text-black font-semibold rounded-md'>CONTACT US</button>              
+       <button type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>CONTACT US</button>              
        </Link>
        </div>       
        </div>

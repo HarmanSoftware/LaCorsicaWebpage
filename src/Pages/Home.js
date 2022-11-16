@@ -26,7 +26,21 @@ export default function Home() {
        </div>
 
         <br></br>
-        <br></br>
+
+        <div className='bg-[#146994] text-white mt-10 pt-4 pb-12 text-center' id="aboutme-div">
+       <div className='scale-95 hover:scale-100 ease-in-out duration-500'>
+       <h2 className='container mx-auto text-center font-semibold text-3xl mb-4 mt-4'>Have Something In Your Mind?</h2>
+       <div id="aboutme-txt-div" className='container mx-auto p-10 text-white text-center  text-xl rounded-lg drop-shadow-md'>
+       If you have any plan and want to improve your work and bussiness, Don't worry we are here to help and answer your questions
+       please contact us and we will be happy to assist you.      
+       </div>
+       <Link to='/contact'>
+       <button type='text' className='w-24 h-12 bg-white text-black font-semibold rounded-md'>CONTACT US</button>              
+       </Link>
+       </div>       
+       </div>
+       <br></br>
+       <br></br>
     </>
   )
 }

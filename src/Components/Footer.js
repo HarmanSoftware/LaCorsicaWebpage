@@ -47,7 +47,7 @@ export default function Footer() {
 				</ul>
 			</div>
 			<div className="space-y-3 text-base">
-				<div className="uppercase text-lg font-medium dark:text-gray-50">Follow Me On</div>
+				<div className="uppercase text-lg font-medium dark:text-gray-50">Follow Us On</div>
 				<div className="flex justify-start space-x-3">
 					
 						<Tippy content='Facebook'>

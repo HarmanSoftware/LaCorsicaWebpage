@@ -2,6 +2,7 @@ import React from 'react'
 import Tippy from '@tippyjs/react';
 import {Link} from 'react-router-dom'
 import '../Assets/DarkMode.css';
+import ReactMap from './ReactMap';
 
 export default function Footer() {
   return (
@@ -34,18 +35,7 @@ export default function Footer() {
 						<Link className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/contact">Contact</Link>
 					</li>
 				</ul>
-			</div>
-			<div className="space-y-3 text-base">
-				<h3 className="uppercase text-lg font-medium dark:text-gray-50 p-1">Top Projects</h3>
-				<ul className="space-y-1">
-					<li>
-						<a className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" href="https://gagromed.com" target="_blank">Gagromed.com</a>
-					</li>
-					<li>
-						<a className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" href="https://itsprojectx.com" target="_blank">Itsprojectx.com</a>
-					</li>
-				</ul>
-			</div>
+			</div>			
 			<div className="space-y-3 text-base">
 				<div className="uppercase text-lg font-medium dark:text-gray-50">Follow Us On</div>
 				<div className="flex justify-start space-x-3">
@@ -72,6 +62,10 @@ export default function Footer() {
 					</a>
 						</Tippy>
 				</div>
+			</div>
+			<div className='w-96 text-center'>
+				<h3 className="uppercase text-lg font-medium dark:text-gray-50 p-1">Map</h3>
+				<ReactMap></ReactMap>
 			</div>
 		</div>
 	</div>

@@ -29,7 +29,7 @@ export default function Footer() {
 						<Link className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/about">About</Link>
 					</li>
                     <li>
-						<Link className='hover:bg-white hover:text-black p-1 rounded-sm'  rel="noopener noreferrer" to="/projects">Project</Link>
+						<Link className='hover:bg-white hover:text-black p-1 rounded-sm'  rel="noopener noreferrer" to="/Service">Service</Link>
 					</li>
                     <li>
 						<Link className='hover:bg-white hover:text-black p-1 rounded-sm' rel="noopener noreferrer" to="/contact">Contact</Link>

@@ -63,8 +63,7 @@ export default function Footer() {
 						</Tippy>
 				</div>
 			</div>
-			<div className='w-96 text-center'>
-				<h3 className="uppercase text-lg font-medium dark:text-gray-50 p-1">Map</h3>
+			<div className='w-96'>
 				<ReactMap></ReactMap>
 			</div>
 		</div>

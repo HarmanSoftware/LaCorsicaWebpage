@@ -2,7 +2,7 @@ import React from 'react'
 import ReactCarousel from '../Components/ReactCarousel';
 import {Link} from "react-router-dom";
 import { motion } from "framer-motion"
-
+import Video from '../Assets/Video/LoopVideo.mp4'
 
 
 export default function Home() {
@@ -60,6 +60,12 @@ export default function Home() {
         type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>READ MORE
         </motion.button>              
        </Link>       
+       </div>
+       <br></br>
+       <br></br>
+       <div>
+       <h2 className='container mx-auto text-center font-semibold lg:text-5xl sm:text-4xl mt-16 mb-16'>Where Art Takes Place!</h2>
+       <video src={Video} autoPlay loop/>
        </div>
        <br></br>
        <br></br>

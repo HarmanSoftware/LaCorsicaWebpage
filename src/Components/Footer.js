@@ -11,7 +11,7 @@ export default function Footer() {
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<Link rel="noopener noreferrer" to="/" className="flex justify-center space-x-3 lg:justify-start">
-				<span className="self-center text-2xl font-semibold">Lens Agency</span>
+				<span className="self-center text-2xl font-semibold">1 Vision Agency</span>
 			</Link>
 			<div className='text-justify pr-10 py-4'>
 			Serving all shapes & sized businesses, obsessed with making your brand more valuable and successful commercially!

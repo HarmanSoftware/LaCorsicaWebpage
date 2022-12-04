@@ -14,7 +14,7 @@ export default function ReactMap() {
     />
     <Marker position={position}>
       <Popup>
-        Lens Agency
+        1 Vision Agency
       </Popup>
     </Marker>
   </MapContainer>

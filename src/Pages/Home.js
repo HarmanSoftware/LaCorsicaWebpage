@@ -57,7 +57,7 @@ export default function Home() {
        <Link to='/contact'>
        <motion.button whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>READ MORE
+        type='text' className='w-36 h-12 bg-white text-black font-semibold rounded-md'>CONTACT US
         </motion.button>              
        </Link>       
        </div>

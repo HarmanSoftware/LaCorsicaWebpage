@@ -64,7 +64,7 @@ export default function Home() {
        <br></br>
        <br></br>
        <div>
-       <h2 className='container mx-auto text-center font-semibold lg:text-5xl sm:text-4xl mt-16 mb-16'>Where Art Takes Place!</h2>
+       <h2 className='container mx-auto text-center font-semibold lg:text-5xl sm:text-4xl mt-16 mb-16'>Make Your Work Dream Reallity!</h2>
        <video src={Video} autoPlay loop/>
        </div>
        <br></br>

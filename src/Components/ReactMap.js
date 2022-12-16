@@ -7,7 +7,7 @@ export default function ReactMap() {
 
   return (
     <div className='h-96 w-full'>
-<MapContainer center={position} zoom={14} scrollWheelZoom={false} style={{height:'100%', width:'100%'}}>
+<MapContainer center={position} zoom={14} scrollWheelZoom={false}  style={{height:'100%', width:'100%'}}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

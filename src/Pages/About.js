@@ -1,19 +1,42 @@
 import React from 'react'
+import { AnimatedPages } from '../Components/AnimatedPages'
+import Bulb from '../Assets/Images/Bulb.png'
+import Deal from '../Assets/Images/Deal.png'
+
 export default function Experience() {
   return (
+    <AnimatedPages>
     <>
-    <h2 className='container bg-[#146994] text-white mx-auto text-4xl font-medium text-center mt-16 mb-6 py-3 rounded-lg' id="education-haeding">About Us</h2>    
-    <div className='px-20 my-12 text-justify'>
-    We are a full-service digital marketing team that specializes in helping businesses in all shapes and sizes
-    We can help with everything from social media management photography/videography, website design and development and mobile application to online marketing and SEO.
-    We also offer high quality video and content production and email marketing services.
+    <div className='grid grid-cols-3 my-12'>
+      <div className='bg-[#3c8bca]'>
+         <p className='text-center mt-6 text-semibold text-3xl text-white'>Our Mission</p>
+      </div>
+      <div>
+        <img src={Bulb} alt='Bulb img'/>
+      </div>
+      <div className='bg-[#3c8bca]'>
+      <p className='text-center mt-6 text-semibold text-3xl text-white'>Our Vission</p>
+      </div>
+    </div>    
+
+    <h2 className='text-4xl text-semibold text-center mt-12 p-6' id="education-haeding">Our Plans To Help Your Business</h2>    
+    <div className='grid grid-cols-3 my-12'>
+
+    <div className='grid grid-rows-2 place-items-center bg-[#3c8bca]'>
+             <div className='text-3xl text-semibold text-center text-white'>Conduct market research</div>
+             <div className='text-3xl text-semibold text-center text-white'>Consider your goals</div>
     </div>
 
-    <h2 className='container bg-[#146994] text-white mx-auto text-4xl font-medium text-center mt-16 mb-6 py-3 rounded-lg' id="education-haeding">Our Goal</h2>    
-    <div className='px-20 my-12 text-justify'>
-    At the end of the day, it’s about asking one question – did we achieve success for our clients? And being able to respond with an absolute, yes!
+    <div>
+        <img src={Deal} alt='Deal img'/>
     </div>
-    
+
+    <div className='grid grid-rows-2 place-items-center bg-[#3c8bca]'>
+            <div className='text-3xl text-semibold text-center text-white'>Structure your campaign</div>
+            <div className='text-3xl text-semibold text-center text-white'>Decide on channels</div>
+    </div> 
+    </div> 
     </>
+    </AnimatedPages>
   )
 }

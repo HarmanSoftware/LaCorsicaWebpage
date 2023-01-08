@@ -7,7 +7,7 @@ import '../Assets/DarkMode.css'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; 
 
-import LensAgency from "../Assets/Images/LensLogo.png";
+import HiLogo from "../Assets/Images/HiLogo.png";
 
 
 export default function NavBar(props) {
@@ -26,7 +26,7 @@ export default function NavBar(props) {
 
   return (
     <>
-    <Disclosure as="nav" className="sticky top-0 z-50" id='nav-bg'>
+    <Disclosure as="nav" className="sticky top-0 z-50 shadow-md" id='nav-bg'>
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -44,7 +44,7 @@ export default function NavBar(props) {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <Link to="/" className='px-2'><img src={LensAgency} className="w-10 h-10 mx-2" alt="lens agency icon" /></Link>
+                  <Link to="/"><img src={HiLogo} className="h-10 mx-2" alt="Hi Marketing logo img" /></Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4" id='desktop-nav-link'>
@@ -55,8 +55,8 @@ export default function NavBar(props) {
                         to={item.href}
                         className={classNames(
                           location.pathname === item.href
-                            ? 'bg-[#146994] text-white'
-                            : 'hover:bg-[#146994] hover:text-white',
+                            ? 'bg-[#3c8bca] text-white'
+                            : 'hover:bg-[#3c8bca] hover:text-white',
                           'px-1 py-2 rounded-sm text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined} 
@@ -92,8 +92,8 @@ export default function NavBar(props) {
                   to={item.href}
                   className={classNames(
                     location.pathname === item.href
-                      ? 'bg-[#146994] text-white'
-                      : 'hover:bg-[#146994] hover:text-white',
+                      ? 'bg-[#3c8bca] text-white'
+                      : 'hover:bg-[#3c8bca] hover:text-white',
                     'block px-1 py-2 rounded-sm text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

@@ -1,11 +1,11 @@
-import React from 'react'
+import {React} from 'react'
 import '../src/Assets/App.css';
 import '../src/Assets/DarkMode.css';
 import '../src/Assets/Global.css';
 import { createContext, useState,useEffect} from 'react'
 import {Routes, Route} from "react-router-dom";
+import BeatLoader from "react-spinners/BeatLoader";
 
-import NavBar from './Components/NavBar';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -13,9 +13,11 @@ import Service from './Pages/Service';
 import Contact from './Pages/Contact';
 import PageNotFound from './Pages/PageNotFound';
 
-import ScrollIndicator from './Components/ScrollIndicator';
+import NavBar from './Components/NavBar'
 import BackTop from './Components/BackTop';
 import Footer from './Components/Footer';
+import SuperHeader from './Components/SuperHeader';
+import Cursor from './Components/Cursor';
 
 
 export const ThemeContext = createContext(null);
@@ -37,11 +39,43 @@ function App() {
     setTheme(theme);
   },[]);  
 
+  //Screen preloader
+  const override = {
+    display: "flex",
+    textAlign:'center',
+    justifyContent:'center',
+    alignItems:'center',
+    width:'%100',
+    height:'100vh',
+    margin: "0 auto",    
+  };
+  const [loading,setLoading] = useState(false);
+
+  useEffect (() => {
+    setLoading(true)
+    setTimeout(()=>{
+    setLoading(false)
+    },5000)
+  },[])
+
+ 
+
   return (
+    <>
+    {loading? <BeatLoader
+        color='#4193a9'
+        loading={loading}
+        cssOverride={override}
+        size={60}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+      :      
     <ThemeContext.Provider value={{ theme, toggleTheme }}>    
-    <div className="App" id={theme}>           
+    <div className="App" id={theme}>
+      <Cursor></Cursor>
+      <SuperHeader></SuperHeader>           
       <NavBar themeprops={theme} toglleprops={toggleTheme}/>  
-      <ScrollIndicator/>     
       <BackTop themeprops={theme}/>
      <Routes>
         <Route path="/" element={<Home />} />
@@ -52,7 +86,9 @@ function App() {
      </Routes>   
       <Footer/>
     </div>
-     </ThemeContext.Provider>
+     </ThemeContext.Provider>      
+  }
+    </>
   );
 }
 export default App;

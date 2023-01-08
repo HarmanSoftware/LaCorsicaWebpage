@@ -11,6 +11,10 @@
   #dark .main {
     background-color: #022b3d;    
   }
+  #dark #super-header{
+    background: #002739;
+    color: #fff;
+  }
   #light #nav-bg{
     background-color: #fff;
     color:#000;

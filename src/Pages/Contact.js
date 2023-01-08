@@ -5,8 +5,10 @@ import * as Yup from "yup";
 import emailjs from "emailjs-com";
 
 import Call from "../Assets/Images/Call.png";
-import ContactMe from "../Assets/Images/ContactMe.png";
+import ContactUs from "../Assets/Images/ContactUs.png";
 import Mail from "../Assets/Images/Send.png";
+import { AnimatedPages } from "../Components/AnimatedPages";
+import ReactCalender from "../Components/ReactCalender";
 
 export default function Contact() {
   const form = useRef();
@@ -61,11 +63,11 @@ export default function Contact() {
   });
 
   return (
-    <div>      
-      <div className="container mx-auto" id="form-container">
-      <h2 className="text-center text-5xl font-semibold mb-8">Say Hello!</h2>
-      <div className="container mx-auto grid lg:grid-cols-2 sm:grid-cols-1 sm:mr-24">
-        <div className="bg-[#146994] my-1 lg:rounded-l-lg" id="contact-us">
+    <AnimatedPages>
+    <>      
+      <div id="form-container">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 my-6">
+        <div className="bg-[#3c8bca] shadow-md" id="contact-us">
           <form className="p-4" ref={form} onSubmit={sendEmail}>
             <div className="text-center font-medium text-4xl text-white py-3">
               Contact Us
@@ -168,7 +170,7 @@ export default function Contact() {
             <button
               type="submit"
               id="send-btn"
-              className="flex items-center content-center mx-auto bg-bmauve hover:bg-lightmauve focus:ring-4 focus:outline-none focus:ring-mauve font-medium rounded-lg text-lg lg:w-26 lg:h-14 md:w-32 md:h-12 sm:w-18 sm:h-12 mt-16 px-4 py-2 text-center dark:bg-mauve dark:hover:bg-lightpurple dark:focus:ring-mauve hover:scale-110 ease-in-out duration-500"
+              className="flex items-center content-center mx-auto bg-bmauve hover:bg-lightmauve focus:ring-4 focus:outline-none focus:ring-mauve font-medium text-lg lg:w-26 lg:h-14 md:w-32 md:h-12 sm:w-18 sm:h-12 mt-16 px-4 py-2 text-center dark:bg-mauve dark:hover:bg-lightpurple dark:focus:ring-mauve hover:scale-110 ease-in-out duration-500"
             >
               <img src={Mail} className="w-8 h-8 mx-1" alt="Submit icon img" />
               Send
@@ -176,28 +178,33 @@ export default function Contact() {
           </form>
         </div>
 
-        <div className="bg-[#145994] p-6 lg:rounded-lg" id="contact-info">
+        <div className="bg-[#3c8bca] lg:m-6 md:m-6 sm:mt-4 p-6 shadow-md" id="contact-info">
           <div className="text-center text-2xl font-medium p-1"></div>
           <div className="text-center">
             <img
-              src={ContactMe}
+              src={ContactUs}
               className="w-100 h-100 hover:scale-105 ease-in-out duration-500"
               alt="Contact us img"
             />
           </div>
 
-          <div className="py-16">
+          <div className="my-16">
+          <a href="tel:+964-750-134-7400"> 
             <div
               id="my-contact-infos"
-              className="flex items-center font-medium py-2 my-2 text-xl rounded-lg bg-white hover:bg-mauve shadow hover:shadow-md hover:scale-105 ease-in-out duration-500"
+              className="flex items-center font-medium py-2 my-2 text-xl bg-white hover:bg-mauve shadow hover:shadow-md hover:scale-105 ease-in-out duration-500"
             >
               <img src={Call} className="w-8 h-8 mx-2" alt="Call icon img" />
+                             
               <div className="font-medium px-12">+(964) 750 782 1514</div>
             </div>
+          </a>
           </div>
         </div>
       </div>
     </div>
-    </div> 
+    <ReactCalender></ReactCalender>
+    </> 
+    </AnimatedPages>
   );
 }

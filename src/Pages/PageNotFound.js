@@ -1,8 +1,11 @@
 import React from 'react'
 import NotFound from '../Assets/Images/eyes.gif'
 import {Link} from 'react-router-dom'
+import { AnimatedPages } from '../Components/AnimatedPages'
 export default function PageNotFound() {
   return (
+	<AnimatedPages>
+
 	<div>
     <section className="flex bg-white items-center dark:text-black py-4 " id='not-found-bg'>
 	<div className="container flex flex-col items-center justify-center mx-auto text-center sm:max-w-md">
@@ -17,5 +20,6 @@ export default function PageNotFound() {
 	</div>
 </section>
 	</div>
+	</AnimatedPages>
   )
 }

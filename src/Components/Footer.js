@@ -44,7 +44,7 @@ export default function Footer() {
 				<div className="uppercase text-lg font-medium dark:text-gray-50 pl-4">Follow Us On</div>
 				<div className="grid grid-cols-3 place-items-start px-4">
 					
-						<Tippy content='Facebook'>
+						<Tippy content='Behance'>
 					<a href="https://www.behance.net/HiMarketing_Agency" alt='behance icon' target='_blank' rel="noreferrer" className="">
 					<img src={Behance} className='w-8 h-8'/>
 					</a>

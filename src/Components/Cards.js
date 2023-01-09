@@ -1,5 +1,11 @@
 import React from 'react'
 import '../Assets/Card.css'
+import SM from '../Assets/Images/SM.png'
+import App from '../Assets/Images/App.png'
+import Web from '../Assets/Images/Web.png'
+import Branding from '../Assets/Images/Branding.png'
+import VideoProduction from '../Assets/Images/VideoProduction.png'
+import Graphic from '../Assets/Images/Graphic.png'
 
 function Cards() {
   return (
@@ -11,18 +17,14 @@ function Cards() {
       <div class="card">
         <div class="header">
            <div class="img-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path fill="rgba(66,193,110,1)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-            </svg>
+            <img src={SM} alt='SM img'/>
         </div>
         <h1 class="title">SM Management</h1>
     </div>
 
     <div class="content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing it amet it...
+        Enssuring the up to date of social media page, making sure that the page is doing well and developing a content sharing calendar. 
         </p>
     </div> 
 </div>
@@ -33,18 +35,14 @@ function Cards() {
       <div class="card">
         <div class="header">
            <div class="img-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path fill="rgba(66,193,110,1)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-            </svg>
+           <img src={Graphic} alt='Graphic img'/>
         </div>
         <h1 class="title">Graphics & 3D</h1>
     </div>
 
     <div class="content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing it amet it...
+        Our Graphic designers are able to create the visual versions of brands and messages.
         </p>
     </div>
 </div>
@@ -57,18 +55,14 @@ function Cards() {
       <div class="card">
         <div class="header">
            <div class="img-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path fill="rgba(66,193,110,1)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-            </svg>
+           <img src={Web} alt='Web img'/>
         </div>
         <h1 class="title">Web Development</h1>
     </div>
 
     <div class="content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing it amet it...
+        Every successful company needs a modern and stylish website, by collabrating with my team of developers we're able to deliver the required website 
         </p>
     </div>
 </div>
@@ -81,18 +75,14 @@ function Cards() {
       <div class="card">
         <div class="header">
            <div class="img-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path fill="rgba(66,193,110,1)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-            </svg>
+           <img src={App} alt='App img'/>
         </div>
         <h1 class="title">App Development</h1>
     </div>
 
     <div class="content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing it amet it...
+        If in case your businesses needs beautiful mobile application for sure Lens Agency can make and Provide reliable and stylish mobile apps 
         </p>
     </div>
 </div>
@@ -105,18 +95,14 @@ function Cards() {
       <div class="card">
         <div class="header">
            <div class="img-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path fill="rgba(66,193,110,1)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-            </svg>
+           <img src={Branding} alt='Branding img'/>
         </div>
         <h1 class="title">Branding</h1>
     </div>
 
     <div class="content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing it amet it...
+        My team of creative directors is able to turn your product and introduce it to the world through amazing graphic visuals.
         </p>
     </div>
 </div>
@@ -128,18 +114,14 @@ function Cards() {
       <div class="card">
         <div class="header">
            <div class="img-box">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path fill="rgba(66,193,110,1)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-            </svg>
+            <img src={VideoProduction} alt='Video production img'/>
         </div>
         <h1 class="title">Video Production</h1>
     </div>
 
     <div class="content">
         <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing it amet it...
+        Photography / Videography Providing the creative photography and photo editing for local and international brands and Pre-production to the final cut, producing SM, TVC, Event Coverages for brands 
         </p>
     </div>
 </div>

@@ -31,9 +31,3 @@
     margin-top: -70px;
   }
 }
-@media (max-width: 767px) {
-  #texts {
-      font-size: 48px !important;
-      line-height: 52px !important;
-  }
-}

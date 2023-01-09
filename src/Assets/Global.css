@@ -31,10 +31,9 @@
     margin-top: -70px;
   }
 }
-@media (min-width: 100px) {
+@media (max-width: 767px) {
   #texts {
       font-size: 48px;
       line-height: 52px;
-      background-color: red;
   }
 }

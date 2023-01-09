@@ -31,3 +31,9 @@
     margin-top: -70px;
   }
 }
+@media (min-width: 100px) {
+  #texts {
+      font-size: 40px;
+      line-height: 44px;
+  }
+}

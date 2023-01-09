@@ -29,7 +29,7 @@ export default function Home() {
        <CallBtn></CallBtn>
     <div>
 
-        <h2 className='container mx-auto text-center font-semibold lg:text-5xl sm:text-4xl mt-16 mb-16'>Where Art Take Place!</h2>
+        <h2 className='container mx-auto text-center font-semibold lg:text-5xl md:text-4xl mt-16 mb-16' id='texts'>Where Art Take Place!</h2>
 
   <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 my-12' id="aboutme-div">       
        <div className='bg-[#3c8bca] lg:rounded-r-md md:rounded-r-md' id="aboutme-txt-div">

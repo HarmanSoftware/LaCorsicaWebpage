@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <AnimatedPages>
     <>
-    <div className='grid grid-cols-3 my-12'>
+    <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 my-12'>
       <div className='bg-[#3c8bca] rounded-r-md'>
          <p className='container mx-auto text-white text-justify font-semibold text-xl mt-10 p-6'>Hi Marketing can enhance your quality of work and helps your business to connect you to the world and make it professional to be more productive and successful.</p>
          <h2 className='text-center text-semibold text-4xl text-white my-12'>Our Mission</h2>
@@ -22,11 +22,11 @@ export default function Experience() {
     </div>    
 
     <h2 className='text-4xl text-semibold text-center mt-12 p-6' id="education-haeding">Our Plans To Help Your Business</h2>    
-    <div className='grid grid-cols-3 my-12'>
+    <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 my-12'>
 
     <div className='grid grid-rows-2 place-items-center bg-[#3c8bca] rounded-r-md'>
-             <div className='text-3xl text-semibold text-center text-white'>Conduct market research</div>
-             <div className='text-3xl text-semibold text-center text-white'>Consider your goals</div>
+             <div className='text-3xl text-semibold text-center text-white p-6'>Conduct market research</div>
+             <div className='text-3xl text-semibold text-center text-white p-6'>Consider your goals</div>
     </div>
 
     <div>
@@ -34,8 +34,8 @@ export default function Experience() {
     </div>
 
     <div className='grid grid-rows-2 place-items-center bg-[#3c8bca] rounded-l-md'>
-            <div className='text-3xl text-semibold text-center text-white'>Structure your campaign</div>
-            <div className='text-3xl text-semibold text-center text-white'>Decide on channels</div>
+            <div className='text-3xl text-semibold text-center text-white p-6'>Structure your campaign</div>
+            <div className='text-3xl text-semibold text-center text-white p-6'>Decide on channels</div>
     </div> 
     </div> 
     </>

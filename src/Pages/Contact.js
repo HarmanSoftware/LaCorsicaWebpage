@@ -8,7 +8,6 @@ import Call from "../Assets/Images/Call.png";
 import ContactUs from "../Assets/Images/ContactUs.png";
 import Mail from "../Assets/Images/Send.png";
 import { AnimatedPages } from "../Components/AnimatedPages";
-import ReactCalender from "../Components/ReactCalender";
 
 export default function Contact() {
   const form = useRef();
@@ -18,10 +17,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_5cv62hq",
-        "template_dy3walo",
+        "service_ko2qkmk",
+        "template_wi94gho",
         form.current,
-        "UBuztRbErCqTj-Wvv"
+        "iCeNM9mppy6jn-un2"
       )
       .then(
         (result) => {
@@ -187,6 +186,7 @@ export default function Contact() {
               alt="Contact us img"
             />
           </div>
+          <div className="text-white text-bold text-center text-4xl">Get In Touch With Us!</div>
 
           <div className="my-16">
           <a href="tel:+964-750-134-7400"> 
@@ -194,8 +194,7 @@ export default function Contact() {
               id="my-contact-infos"
               className="flex items-center font-medium py-2 my-2 text-xl bg-white hover:bg-mauve shadow hover:shadow-md hover:scale-105 ease-in-out duration-500"
             >
-              <img src={Call} className="w-8 h-8 mx-2" alt="Call icon img" />
-                             
+              <img src={Call} className="w-8 h-8 mx-2" alt="Call icon img" />                             
               <div className="font-medium px-12">+(964) 750 782 1514</div>
             </div>
           </a>
@@ -203,7 +202,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    <ReactCalender></ReactCalender>
     </> 
     </AnimatedPages>
   );

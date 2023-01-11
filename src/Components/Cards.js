@@ -12,17 +12,17 @@ function Cards() {
     <>
     <h1 className='text-center font-semibold text-5xl mt-12'>Our Services</h1>
     <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center my-8'>
-       <div className='my-2'>
+       <div className=''>
           {/* Card 1 */}
-      <div class="card">
-        <div class="header">
-           <div class="img-box">
+      <div id="card1">
+        <div id="header1">
+           <div id="img-box1">
             <img src={SM} alt='SM img'/>
         </div>
-        <h1 class="title">SM Management</h1>
+        <h1 id="title1">SM Management</h1>
     </div>
 
-    <div class="content">
+    <div id="content1">
         <p>
         Enssuring the up to date of social media page, making sure that the page is doing well and developing a content sharing calendar. 
         </p>
@@ -30,17 +30,17 @@ function Cards() {
 </div>
        </div>
 
-       <div className='my-2'>
+       <div idName='my-2'>
           {/* Card 2 */}
-      <div class="card">
-        <div class="header">
-           <div class="img-box">
+      <div id="card2">
+        <div id="header2">
+           <div id="img-box2">
            <img src={Graphic} alt='Graphic img'/>
         </div>
-        <h1 class="title">Graphics & 3D</h1>
+        <h1 id="title2">Graphics & 3D</h1>
     </div>
 
-    <div class="content">
+    <div id="content2" >
         <p>
         Our Graphic designers are able to create the visual versions of brands and messages.
         </p>
@@ -50,17 +50,17 @@ function Cards() {
 
 
 
-       <div className='my-2'>
+       <div idName='my-2'>
           {/* Card 3 */}
-      <div class="card">
-        <div class="header">
-           <div class="img-box">
+      <div id="card3">
+        <div id="header3">
+           <div id="img-box3">
            <img src={Web} alt='Web img'/>
         </div>
-        <h1 class="title">Web Development</h1>
+        <h1 id="title3">Web Development</h1>
     </div>
 
-    <div class="content">
+    <div id="content3">
         <p>
         Every successful company needs a modern and stylish website, by collabrating with my team of developers we're able to deliver the required website 
         </p>
@@ -70,17 +70,17 @@ function Cards() {
 
 
 
-       <div className='my-2'>
+       <div idName='my-2'>
           {/* Card 4 */}
-      <div class="card">
-        <div class="header">
-           <div class="img-box">
+      <div id="card4">
+        <div id="header4">
+           <div id="img-box4">
            <img src={App} alt='App img'/>
         </div>
-        <h1 class="title">App Development</h1>
+        <h1 id="title4">App Development</h1>
     </div>
 
-    <div class="content">
+    <div id="content4">
         <p>
         If in case your businesses needs beautiful mobile application for sure Lens Agency can make and Provide reliable and stylish mobile apps 
         </p>
@@ -90,17 +90,17 @@ function Cards() {
 
 
 
-       <div className='my-2'>
+       <div idName='my-2'>
           {/* Card 5 */}
-      <div class="card">
-        <div class="header">
-           <div class="img-box">
+      <div id="card5">
+        <div id="header5">
+           <div id="img-box5">
            <img src={Branding} alt='Branding img'/>
         </div>
-        <h1 class="title">Branding</h1>
+        <h1 id="title5">Branding</h1>
     </div>
 
-    <div class="content">
+    <div id="content5">
         <p>
         My team of creative directors is able to turn your product and introduce it to the world through amazing graphic visuals.
         </p>
@@ -109,17 +109,17 @@ function Cards() {
        </div>
 
 
-       <div className='my-2'>
+       <div idName='my-2'>
           {/* Card 6 */}
-      <div class="card">
-        <div class="header">
-           <div class="img-box">
+      <div id="card6">
+        <div id="header6">
+           <div id="img-box6">
             <img src={VideoProduction} alt='Video production img'/>
         </div>
-        <h1 class="title">Video Production</h1>
+        <h1 id="title6">Video Production</h1>
     </div>
 
-    <div class="content">
+    <div id="content6">
         <p>
         Photography / Videography Providing the creative photography and photo editing for local and international brands and Pre-production to the final cut, producing SM, TVC, Event Coverages for brands 
         </p>

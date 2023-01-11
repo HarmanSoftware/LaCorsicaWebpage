@@ -1,4 +1,4 @@
-.card {
+#card1, #card2, #card3, #card4, #card5, #card6 {
     width: 500px;
     height: 130px;
     border-radius: 6px;
@@ -6,14 +6,15 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     text-align: center;
     overflow: hidden;
+    margin: 5px;
   }
   
-  .card:hover {
+  #card1:hover , #card2:hover, #card3:hover , #card4:hover, #card5:hover , #card6:hover {
     height: 300px;
     background: linear-gradient(360deg, #fdfdfd 60%, hsla(0, 0%, 13%, 1) 70%);
   }
   
-  .card .header {
+  #card1 #header1, #card2 #header2, #card3 #header3, #card4 #header4, #card5 #header5, #card6 #header6 {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -23,12 +24,11 @@
     margin-bottom: 16px;
   }
   
-  .card .header .img-box {
+  #card1 #header1 #img-box1, #card2 #header2 #img-box2, #card3 #header3 #img-box3, #card4 #header4 #img-box4, #card5 #header5 #img-box5,#card6 #header6 #img-box6 {
     width: 50px;
     height: 70px;
   }
-  
-  .card .header .title {
+  #card1 #header1 #title1, #card2 #header2 #title2, #card3 #header3 #title3, #card4 #header4 #title4, #card5 #header5 #title5,#card6 #header6 #title6 {
     font-size: 16px;
     letter-spacing: .1em;
     font-weight: 500;
@@ -38,7 +38,7 @@
     color: #fff;
   }
   
-  .card:hover .header {
+  #card1:hover #header1, #card2:hover #header2, #card3:hover #header3, #card4:hover #header4, #card5:hover #header5, #card6:hover #header6 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   }
   
@@ -60,7 +60,7 @@
   }
 
   @media screen and (max-width: 767px) {
-    .card {
+    #card1, #card2, #card3, #card4, #card5, #card6 {
       background-color: lightgreen;
       width: 300px !important;
     }

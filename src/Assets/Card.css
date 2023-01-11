@@ -1,4 +1,4 @@
-#card1, #card2, #card3, #card4, #card5, #card6 {
+.card {
     width: 500px;
     height: 130px;
     border-radius: 6px;
@@ -9,12 +9,12 @@
     margin: 5px;
   }
   
-  #card1:hover , #card2:hover, #card3:hover , #card4:hover, #card5:hover , #card6:hover {
+  .card:hover {
     height: 300px;
     background: linear-gradient(360deg, #fdfdfd 60%, hsla(0, 0%, 13%, 1) 70%);
   }
   
-  #card1 #header1, #card2 #header2, #card3 #header3, #card4 #header4, #card5 #header5, #card6 #header6 {
+  .card .header {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -24,11 +24,11 @@
     margin-bottom: 16px;
   }
   
-  #card1 #header1 #img-box1, #card2 #header2 #img-box2, #card3 #header3 #img-box3, #card4 #header4 #img-box4, #card5 #header5 #img-box5,#card6 #header6 #img-box6 {
+  .card .header .img-box{
     width: 50px;
     height: 70px;
   }
-  #card1 #header1 #title1, #card2 #header2 #title2, #card3 #header3 #title3, #card4 #header4 #title4, #card5 #header5 #title5,#card6 #header6 #title6 {
+  .card .header .title {
     font-size: 16px;
     letter-spacing: .1em;
     font-weight: 500;
@@ -38,7 +38,7 @@
     color: #fff;
   }
   
-  #card1:hover #header1, #card2:hover #header2, #card3:hover #header3, #card4:hover #header4, #card5:hover #header5, #card6:hover #header6 {
+  .card1:hover .header{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
   }
   
@@ -60,7 +60,7 @@
   }
 
   @media screen and (max-width: 767px) {
-    #card1, #card2, #card3, #card4, #card5, #card6 {
+    .card {
       background-color: lightgreen;
       width: 300px !important;
     }

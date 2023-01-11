@@ -1,12 +1,13 @@
 import React, { useRef } from "react";
 import "../Assets/DarkMode.css";
+import '../Assets/BtnStyle.css'
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
 
 import Call from "../Assets/Images/Call.png";
 import ContactUs from "../Assets/Images/ContactUs.png";
-import Mail from "../Assets/Images/Send.png";
+import RightArrow from '../Assets/Images/RightArrow.png'
 import { AnimatedPages } from "../Components/AnimatedPages";
 
 export default function Contact() {
@@ -66,7 +67,7 @@ export default function Contact() {
     <>      
       <div id="form-container">
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 my-6">
-        <div className="bg-[#3c8bca] shadow-md" id="contact-us">
+        <div className="bg-[#3c8bca] shadow-md rounded-md" id="contact-us">
           <form className="p-4" ref={form} onSubmit={sendEmail}>
             <div className="text-center font-medium text-4xl text-white py-3">
               Contact Us
@@ -165,19 +166,13 @@ export default function Contact() {
                 </div>
               ) : null}
             </div>
-
-            <button
-              type="submit"
-              id="send-btn"
-              className="flex items-center content-center mx-auto bg-bmauve hover:bg-lightmauve focus:ring-4 focus:outline-none focus:ring-mauve font-medium text-lg lg:w-26 lg:h-14 md:w-32 md:h-12 sm:w-18 sm:h-12 mt-16 px-4 py-2 text-center dark:bg-mauve dark:hover:bg-lightpurple dark:focus:ring-mauve hover:scale-110 ease-in-out duration-500"
-            >
-              <img src={Mail} className="w-8 h-8 mx-1" alt="Submit icon img" />
-              Send
-            </button>
+            <div className="text-center my-20">
+              <button type="submit" id="cssbuttons-io"><span> SEND <img src={RightArrow} alt='RightArrow img' className='w-10 h-8 mx-2'/> </span></button>
+            </div>
           </form>
         </div>
 
-        <div className="bg-[#3c8bca] lg:m-6 md:m-6 sm:mt-4 p-6 shadow-md" id="contact-info">
+        <div className="bg-[#3c8bca] lg:m-6 md:m-6 sm:mt-4 p-6 shadow-md rounded-md" id="contact-info">
           <div className="text-center text-2xl font-medium p-1"></div>
           <div className="text-center">
             <img
@@ -186,13 +181,12 @@ export default function Contact() {
               alt="Contact us img"
             />
           </div>
-          <div className="text-white text-bold text-center text-4xl">Get In Touch With Us!</div>
 
           <div className="my-16">
           <a href="tel:+964-750-134-7400"> 
             <div
               id="my-contact-infos"
-              className="flex items-center font-medium py-2 my-2 text-xl bg-white hover:bg-mauve shadow hover:shadow-md hover:scale-105 ease-in-out duration-500"
+              className="flex items-center font-medium py-2 my-2 text-xl bg-white rounded-md hover:scale-105 ease-in-out duration-500"
             >
               <img src={Call} className="w-8 h-8 mx-2" alt="Call icon img" />                             
               <div className="font-medium px-12">+(964) 750 782 1514</div>

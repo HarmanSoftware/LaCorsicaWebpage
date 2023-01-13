@@ -10,7 +10,7 @@ import Graphic from '../Assets/Images/Graphic.png'
 function Cards() {
   return (
     <>
-    <h1 className='text-center font-semibold text-5xl mt-12'>Our Services</h1>
+    <h1 className='text-center font-semibold text-5xl mt-12'>Hi Marketing Services</h1>
     <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center my-8'>
        <div>
           {/* Card 1 */}

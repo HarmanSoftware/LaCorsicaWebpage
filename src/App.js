@@ -1,10 +1,12 @@
 import {React} from 'react'
-import '../src/Assets/App.css';
-import '../src/Assets/DarkMode.css';
-import '../src/Assets/Global.css';
 import { createContext, useState,useEffect} from 'react'
 import {Routes, Route} from "react-router-dom";
 import BeatLoader from "react-spinners/BeatLoader";
+import '../src/Assets/App.css';
+import '../src/Assets/DarkMode.css';
+import '../src/Assets/Global.css';
+import WhatsappBtn from './Components/WhatsappBtn';
+import CallBtn from './Components/CallBtn';
 
 
 import Home from './Pages/Home';
@@ -74,6 +76,8 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>    
     <div className="App" id={theme}>
       <Cursor></Cursor>
+      <WhatsappBtn></WhatsappBtn>
+      <CallBtn></CallBtn>
       <SuperHeader></SuperHeader>           
       <NavBar themeprops={theme} toglleprops={toggleTheme}/>  
       <BackTop themeprops={theme}/>

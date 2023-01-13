@@ -51,17 +51,14 @@
     text-align: justify;
     color: #000;
     margin: 0 18px;
-  }
-  
+  }  
   .card .content p {
     transition: all .5s;
     font-size: 1em;
     margin-bottom: 8px;
   }
-
   @media screen and (max-width: 767px) {
     .card {
-      background-color: lightgreen;
       width: 300px !important;
     }
   }

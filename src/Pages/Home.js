@@ -10,9 +10,7 @@ import HumanHand from '../Assets/Images/HumanHand.png'
 
 import Video from '../Assets/Video/LoopVideo.mp4'
 import LiveWallpaper from '../Assets/Video/LiveWallpaper.webm'
-import WhatsappBtn from '../Components/WhatsappBtn';
 import LocalTime from '../Components/LocalTime';
-import CallBtn from '../Components/CallBtn';
 
 export default function Home() {
     return (
@@ -25,8 +23,6 @@ export default function Home() {
             </div>
             <video src={LiveWallpaper} autoPlay loop muted/>             
         </div>
-       <WhatsappBtn></WhatsappBtn>
-       <CallBtn></CallBtn>
     <div>
 
         <h1 className='container mx-auto text-center font-semibold text-4xl mt-16 mb-16'>Where Art Take Place!</h1>

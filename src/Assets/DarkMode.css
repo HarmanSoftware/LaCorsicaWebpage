@@ -37,7 +37,6 @@
     background-color: #fff;   
     color: #000; 
   }
-
   .switch {    
     width: 100vw;
     height: 100px; 
@@ -51,49 +50,15 @@
   #dark .switch label {
     color: #fff;
   }
- #dark #scroll-indicate{
-  background-color: #002739;
- }
- #dark #type-writer-div{
-background-color: #02162A;
- }
- #dark #github-btn,#dark #linkedin-btn, #dark #instagram-btn{
-  background-color: #002739;
+ #dark #aboutme-txt-div{
+  background-color: #02162A;
  }
  #dark #aboutme-div{
-  background-color: #02162A;
- }
- #dark #webskills-div{
-  background-color: #02162A;
- }
- #dark #web-skill-1, #dark #web-skill-2,#dark #web-skill-3,#dark #web-skill-4,#dark #web-skill-5,#dark #web-skill-6{
-  background-color: #002739;
- }
- #dark #personal-skill-1,#dark #personal-skill-2,#dark #personal-skill-3, #dark #personal-skill-4,#dark #personal-skill-5,#dark #personal-skill-6{
-  background-color: #002739;
- }
- #dark #personalskills-div{
   background-color: #02162A;
  }
  #dark #footer{
   background-color: #02162A;
   color: #fff;
- }
- #dark #education-haeding{
-  background: #02162A;
- }
- #dark #education-text{
-  background: #02162A;
- } 
- #dark #education-lists{
-  background: #04293b;
-  box-shadow: 1px 1px 15px 0px #02162A;
- }
- #dark #project-heading{
-  background:  #02162A;
- }
- #dark #certification-heading{
-  background:  #02162A;
  }
  #dark #not-found-bg{
   background-color: #022b3d;
@@ -119,15 +84,16 @@ background-color: #02162A;
  #dark #my-contact-infos{
   background-color: #02162A;
  }
-#dark #send-btn{
-  background-color: #d5b8ff;
-  color: #000;
-}
-#dark #send-btn:hover{
-  background-color: #A78BFA;
-  color: #000;
-}
 #dark #contact-info-email, #dark  #contact-info-phone, #dark #contact-info-socials{
   background-color: #333;
   color: #fff;
+}
+#dark #vission-div, #dark #mission-div{
+  background-color: #02162A;
+}
+#dark #about-plan-txt1, #dark #about-plan-txt2{
+  background-color: #02162A;
+}
+#dark .card .header{
+  background-color: #02162A;
 }

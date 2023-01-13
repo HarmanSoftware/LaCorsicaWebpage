@@ -1,18 +1,16 @@
 import React from 'react'
-import Clock from '../Assets/Images/Clock.png'
 
 function SuperHeader() {
   return (
     <>
-       <div className='sticky grid grid-cols-2  place-items-center h-12 bg-[#3c8bca] text-white text-semibold w-full drop-shadow-lg' id='super-header'>  
-        <div className='flex px-2'> 
-          <img src={Clock} className='h-6 mx-2' alt='Clock Icon img'/>         
-          9AM-5PM | Sat-Thu
+       <div className='sticky grid grid-cols-2 place-items-center h-12 w-full  bg-[#3c8bca] text-white text-semibold drop-shadow-lg' id='super-header'>  
+        <div className='flex p-2'> 
+           9AM - 5PM | Sat-Thu
         </div>
-        <div className='flex'>
-          <div className='px-2'>English </div>          
-          <div className='px-2'>Arabic</div>
-          <div className='px-2'>Kurdish</div>
+        <div className='flex mx-2'>
+          <div className='pr-2'>English</div>          
+          <div className='pr-2'>Arabic</div>
+          <div>Kurdish</div>
         </div>    
        </div>
     </>

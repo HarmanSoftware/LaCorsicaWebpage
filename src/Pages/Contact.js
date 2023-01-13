@@ -173,7 +173,7 @@ export default function Contact() {
         </div>
 
         <div className="bg-[#3c8bca] lg:m-6 md:m-6 sm:mt-4 p-6 shadow-md rounded-md" id="contact-info">
-          <div className="text-center text-2xl font-medium p-1"></div>
+         <div className="text-white font-semibold text-center text-5xl mt-12">Say Hello!</div>
           <div className="text-center">
             <img
               src={ContactUs}
@@ -181,14 +181,13 @@ export default function Contact() {
               alt="Contact us img"
             />
           </div>
-
+          
           <div className="my-16">
-          <a href="tel:+964-750-134-7400"> 
+          <a href="tel:+964-750-782-1514"> 
             <div
               id="my-contact-infos"
-              className="flex items-center font-medium py-2 my-2 text-xl bg-white rounded-md hover:scale-105 ease-in-out duration-500"
-            >
-              <img src={Call} className="w-8 h-8 mx-2" alt="Call icon img" />                             
+              className="flex items-center font-medium py-2 my-2 text-xl bg-white rounded-md hover:scale-105 ease-in-out duration-500">
+              <img src={Call} className="w-6 h-6 mx-2" alt="Call icon img" />                             
               <div className="font-medium px-12">+(964) 750 782 1514</div>
             </div>
           </a>

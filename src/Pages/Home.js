@@ -9,7 +9,7 @@ import TeamWorking from '../Assets/Images/TeamWorking.jpg'
 import HumanHand from '../Assets/Images/HumanHand.png'
 
 import Video from '../Assets/Video/LoopVideo.mp4'
-import LiveWallpaper from '../Assets/Video/LiveWallpaper.webm'
+import LiveWallpaper from '../Assets/Video/LiveWallpaper.mp4'
 import LocalTime from '../Components/LocalTime';
 
 export default function Home() {

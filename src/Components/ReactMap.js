@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
 
 export default function ReactMap() {
-  const position = [36.2366531174912, 43.996473671164644]
+  const position = [36.20129458800066, 43.96580859992025];  
 
   return (
     <div className='h-72 w-84 !-z-50'>
@@ -14,7 +14,7 @@ export default function ReactMap() {
     />
     <Marker position={position}>
       <Popup>
-        Hi Marketing Agency
+        LaCorsica Cafe
       </Popup>
     </Marker>
   </MapContainer>

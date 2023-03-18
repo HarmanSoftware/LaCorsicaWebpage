@@ -1,7 +1,7 @@
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; 
 import React,{useState,useEffect} from 'react'
-// import RocketUp from '../Assets/Images/RocketUp.png';
+import ArrowUp from '../Assets/Images/ArrowUp.png';
 
 export default function BackTop(props) {
 
@@ -28,7 +28,7 @@ export default function BackTop(props) {
        <Tippy content="Back To Top" >
        <button 
         onClick={scrollUp} className='fixed bottom-10 right-8 left-8 h-12 w-12 z-50 '>
-            {/* <img src={RocketUp} className='scale-125' alt='Back to top icon'/> */}
+            <img src={ArrowUp} className='scale-125' alt='Back to top icon'/>
         </button>
         </Tippy>
         } 
